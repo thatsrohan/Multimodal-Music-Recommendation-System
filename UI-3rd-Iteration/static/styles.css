@@ -1,0 +1,12 @@
+/* appended weather css */
+body { transition: background 1s ease, color 0.6s ease; }
+body.weather-sunny { background: linear-gradient(135deg,#FFD27D,#FFB86B); color:#111; }
+body.weather-clear { background: linear-gradient(135deg,#FFF1B8,#FFD47A); color:#111; }
+body.weather-rainy { background: linear-gradient(135deg,#8FB5FF,#6A90F0); color:#fff; }
+body.weather-calm { background: linear-gradient(135deg,#DDEBFF,#CFE8FF); color:#111; }
+body.weather-stormy { background: linear-gradient(135deg,#2b2f4a,#151723); color:#fff; }
+body.weather-snow { background: linear-gradient(135deg,#EAF6FF,#FFFFFF); color:#111; }
+body.weather-any { background: linear-gradient(135deg,#F3F7FF,#EAF0FF); color:#111; }
+
+.fade-in { animation: fadeIn 450ms ease both; }
+@keyframes fadeIn { from { opacity:0; transform:translateY(6px);} to { opacity:1; transform:none;} }

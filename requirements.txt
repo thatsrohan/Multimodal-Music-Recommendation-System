@@ -1,0 +1,21 @@
+# --- FastAPI + API Tools ---
+fastapi
+uvicorn
+requests
+python-dotenv
+
+# --- Data + Machine Learning ---
+numpy
+pandas
+scikit-learn
+scipy
+
+# --- Spotify API helper ---
+spotipy
+
+# --- Emotion detection ---
+opencv-python
+fer
+implicit
+nltk
+nicegui==1.4.17
